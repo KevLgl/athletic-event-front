@@ -1,6 +1,6 @@
 # athletic-event-front
 
-## Project setup
+## Initialisation du projet
 ```
 npm install
 ```
