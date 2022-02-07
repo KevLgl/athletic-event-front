@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Les events: </h1>
+  <Events />
+  <h1>Les categorys: </h1>
+   <Categorys />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Events from './components/Events.vue'
+import Categorys from './components/Categorys.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Events, 
+    Categorys
   }
 }
+console.log(process.env.VUE_APP_NOT_SECRET_CODE)
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
